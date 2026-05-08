@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505; /* Deep Netflix black */
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-netflix-red: #E50914;
+  --color-netflix-dark: #141414;
+  --color-netflix-black: #050505;
+  --color-netflix-gray: #808080;
+  
+  --font-sans: var(--font-geist-sans), 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for clean cinematic look */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  scrollbar-width: none;
+}
