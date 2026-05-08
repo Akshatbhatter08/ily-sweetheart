@@ -29,7 +29,7 @@ export default function IntroPage() {
           {!hasStarted ? (
             <div className="flex flex-col items-center gap-8 z-10">
               <h1 className="text-3xl md:text-5xl font-light text-white tracking-widest text-center px-4 drop-shadow-xl">
-                Are you ready?
+                Something for you
               </h1>
               <button 
                 onClick={() => {
@@ -39,7 +39,7 @@ export default function IntroPage() {
                 }}
                 className="px-8 py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded text-xl transition-all hover:scale-105"
               >
-                Click to Begin
+                Let's See
               </button>
             </div>
           ) : (
