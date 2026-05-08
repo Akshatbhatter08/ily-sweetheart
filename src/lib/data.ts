@@ -25,7 +25,7 @@ export const getProfileData = (profileName: string) => {
   if (profile === "akshat") {
     return {
       hero: {
-        title: "Life of Mantasha & Akshat",
+        title: "I Love You",
         description: "A cinematic journey through our most beautiful moments. Press play to experience the magic of us all over again.",
         videoUrl: null,
         videoStyle: {},
@@ -73,7 +73,7 @@ export const getProfileData = (profileName: string) => {
     // Default to Mantasha
     return {
       hero: {
-        title: "Life of Mantasha & Akshat",
+        title: "Pretty Woman (Mantasha)",
         description: "A cinematic journey through our most beautiful moments. Press play to experience the magic of us all over again.",
         videoUrl: "/Mantasha/mantasha-video.mp4",
         videoStyle: { 
