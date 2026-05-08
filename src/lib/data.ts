@@ -60,11 +60,11 @@ export const getProfileData = (profileName: string) => {
           id: "row-1",
           title: "Popular on Netflix",
           items: [
-            { id: "u1", title: "Our Memory 1", image: "/Us/Us-1.jpeg", match: "100% Match", duration: "1h 45m", style: { objectPosition: "center 70%" } },
-            { id: "u4", title: "Our Memory 2", image: "/Us/Us-4.jpeg", match: "95% Match", duration: "45m", style: { objectPosition: "center -10%" } },
-            { id: "u2", title: "Our Memory 3", image: "/Us/Us-2.jpeg", match: "99% Match", duration: "2h 10m", style: { objectPosition: "center 70%" } },
-            { id: "u5", title: "Our Memory 4", image: "/Us/Us-5.jpg", match: "99% Match", duration: "1h 10m", style: { objectPosition: "center 30%" } },
-            { id: "u3", title: "Our Memory 5", image: "/Us/Us-3.jpeg", match: "100% Match", duration: "1h 20m", style: { objectPosition: "center 80%" } },
+            { id: "u1", title: "KGP gave me something", image: "/Us/Us-1.jpeg", match: "100% Match", duration: "1h 45m", style: { objectPosition: "center 70%" } },
+            { id: "u4", title: "Dreams?", image: "/Us/Us-4.jpeg", match: "95% Match", duration: "45m", style: { objectPosition: "center -10%" } },
+            { id: "u2", title: "We look good together", image: "/Us/Us-2.jpeg", match: "99% Match", duration: "2h 10m", style: { objectPosition: "center 70%" } },
+            { id: "u5", title: "The Beginning", image: "/Us/Us-5.jpg", match: "99% Match", duration: "1h 10m", style: { objectPosition: "center 30%" } },
+            { id: "u3", title: "God's Grace", image: "/Us/Us-3.jpeg", match: "100% Match", duration: "1h 20m", style: { objectPosition: "center 80%" } },
           ]
         }
       ]
@@ -91,11 +91,11 @@ export const getProfileData = (profileName: string) => {
           id: "row-1",
           title: "Popular on Netflix",
           items: [
-            { id: "m1", title: "Memory 1", image: "/Mantasha/mantasha-1.jpeg", match: "100% Match", duration: "1h 45m", style: { objectPosition: "center 70%" } },
-            { id: "m2", title: "Memory 2", image: "/Mantasha/mantasha-2.jpeg", match: "99% Match", duration: "2h 10m", style: { objectPosition: "center 40%" } },
-            { id: "m3", title: "Memory 3", image: "/Mantasha/mantasha-3.jpeg", match: "100% Match", duration: "1h 20m", style: { objectPosition: "center 60%" } },
-            { id: "m4", title: "Memory 4", image: "/Mantasha/mantasha-4.jpeg", match: "95% Match", duration: "45m", style: { objectPosition: "center 70%" } },
-            { id: "m5", title: "Memory 5", image: "/Mantasha/mantasha-5.jpeg", match: "98% Match", duration: "1h 15m", style: { objectPosition: "center 18%" } },
+            { id: "m1", title: "Suhana Safar", image: "/Mantasha/mantasha-1.jpeg", match: "100% Match", duration: "1h 45m", style: { objectPosition: "center 70%" } },
+            { id: "m2", title: "Suhaag Raat", image: "/Mantasha/mantasha-2.jpeg", match: "99% Match", duration: "2h 10m", style: { objectPosition: "center 40%" } },
+            { id: "m3", title: "Date Night", image: "/Mantasha/mantasha-3.jpeg", match: "100% Match", duration: "1h 20m", style: { objectPosition: "center 60%" } },
+            { id: "m4", title: "Full Wifey", image: "/Mantasha/mantasha-4.jpeg", match: "95% Match", duration: "45m", style: { objectPosition: "center 70%" } },
+            { id: "m5", title: "Haayee", image: "/Mantasha/mantasha-5.jpeg", match: "98% Match", duration: "1h 15m", style: { objectPosition: "center 18%" } },
           ]
         }
       ]
